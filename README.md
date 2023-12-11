@@ -17,7 +17,7 @@ Please note that the model is trained with Chinese license plates, so the detect
 1. Clone the repository:
 
 ```
-git clone https://github.com/roniragilimankhoirul/Automatic-Number-Plate-Recognition.git && cd Automatic-Number-Plate-Recognition
+git clone https://github.com/roniragilimankhoirul/License-Plate-Detection-with-YuNet.git && cd License-Plate-Detection-with-YuNet
 ```
 
 2. Create a virtual environment:
@@ -50,19 +50,19 @@ DB_NAME=your_database_name
 6. Run the image detection program:
 
 ```
-python main.py --input path/to/your/image.jpg -v
+python demo.py --input path/to/your/image.jpg -v
 ```
 
 7. Run the image detection program and save to database:
 
 ```
-python main.py --input path/to/your/image.jpg -v -s
+python demo.py --input path/to/your/image.jpg -v -s
 ```
 
 7. Run to see customizable options
 
 ```
-python main.py --help
+python demo.py --help
 ```
 
 ### Example outputs
